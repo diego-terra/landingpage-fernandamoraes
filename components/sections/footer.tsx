@@ -24,7 +24,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-4 mb-8">
             <a
-              href="https://wa.me/5535991359681"
+              href="https://wa.me/5535991359681?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações."
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:border-gold hover:text-gold transition-colors duration-300"

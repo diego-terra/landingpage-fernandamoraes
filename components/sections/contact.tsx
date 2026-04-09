@@ -71,7 +71,7 @@ export function Contact() {
                   className="bg-white text-foreground hover:bg-white/90 rounded-2xl px-8 py-6 text-base font-medium whitespace-nowrap"
                   asChild
                 >
-                  <a href="https://wa.me/5535991359681" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5535991359681?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" rel="noopener noreferrer">
                     Iniciar conversa
                   </a>
                 </Button>

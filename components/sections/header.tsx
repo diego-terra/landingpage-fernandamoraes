@@ -75,7 +75,7 @@ export function Header() {
                 className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl px-6"
                 asChild
               >
-                <a href="https://wa.me/5535991359681" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5535991359681?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-4 h-4 mr-2" />
                   WhatsApp
                 </a>
@@ -147,7 +147,7 @@ export function Header() {
                     asChild
                   >
                     <a 
-                      href="https://wa.me/5535991359681" 
+                      href="https://wa.me/5535991359681?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." 
                       target="_blank" 
                       rel="noopener noreferrer"
                       onClick={() => setIsMobileMenuOpen(false)}

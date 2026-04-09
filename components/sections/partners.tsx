@@ -145,7 +145,7 @@ export function Partners() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-2xl px-10 py-6 text-base font-medium transition-all duration-300 hover:shadow-lg"
               asChild
             >
-              <a href="https://wa.me/5535991359681" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5535991359681?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5 mr-2" />
                 Entrar em contato
               </a>

@@ -61,46 +61,36 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center lg:text-left"
           >
-            <motion.p
+            {/* <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
               className="text-gold uppercase tracking-[0.3em] text-sm mb-6"
             >
               Prótese Dentária
-            </motion.p>
+            </motion.p> */}
 
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="font-serif text-5xl md:text-6xl lg:text-7xl font-light text-foreground mb-6 leading-tight text-balance"
+              className="mb-6"
             >
-              {/* Fernanda Moraes
-              <br />
-              <span className="italic">Ateliê Dental</span> */}
-
-              <span className="flex flex-col leading-tight">
-                <span className="font-bold tracking-[0.08em] text-[#CF8F3A]">
-                  FERNANDA
-                </span>
-                <span className="font-light tracking-[0.08em] text-[#CF8F3A]">
-                  MORAES
-                </span>
-
-                <span className="font-light tracking-[0.25em] text-neutral-500 text-xs">
-                  ATELIÊ DENTAL
-                </span>
-              </span>
-
-
+              <div className="flex flex-col items-center lg:items-start">
+                <img
+                  src="/logo-sized.svg"
+                  alt="Fernanda Moraes"
+                  className="w-[280px] sm:w-[320px] md:w-[380px] lg:w-[550px] xl:w-[650px] object-contain mx-auto lg:mx-0"
+                />
+              </div>
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className="text-muted-foreground text-lg md:text-xl max-w-lg mx-auto lg:mx-0 mb-10 leading-relaxed"
+              className=" text-muted-foreground text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed
+              max-w-[650px] mx-auto lg:mx-0 text-center lg:text-left mb-10"
             >
               Estética, precisão e confiança para elevar o nível dos seus casos clínicos.
             </motion.p>

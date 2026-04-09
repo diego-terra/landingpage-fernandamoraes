@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { MessageCircle, Instagram, Mail, MapPin } from "lucide-react"
+import { MessageCircle, Instagram, Mail, MapPin, Play, } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Contact() {
@@ -88,29 +88,31 @@ export function Contact() {
                 Acompanhe nossos trabalhos e novidades.
               </p>
               <a 
-                href="https://www.instagram.com/fernandamoraes.tpd/" 
+                href="https://www.instagram.com/fernanda.moraes.tpd/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gold hover:text-gold/80 font-medium text-sm transition-colors"
               >
-              @fernandamoraes.tpd
+              @fernanda.moraes.tpd
               </a>
             </div>
 
-            {/* Email Card */}
+            {/* Youtube Card */}
             <div className="p-8 rounded-3xl bg-background border border-border hover:border-gold/30 transition-colors duration-300">
               <div className="w-14 h-14 rounded-2xl bg-beige flex items-center justify-center mb-4">
-                <Mail className="w-7 h-7 text-foreground" />
+                <Play className="w-7 h-7 text-foreground" />
               </div>
-              <h4 className="font-serif text-xl text-foreground mb-2">E-mail</h4>
+              <h4 className="font-serif text-xl text-foreground mb-2">Youtube</h4>
               <p className="text-muted-foreground text-sm mb-4">
-                Para assuntos formais e documentação.
+                Para mais conteúdo e dicas. 
               </p>
               <a 
-                href="mailto:contato@ateliefernandamoraes.com.br"
+                href="https://www.youtube.com/@tpdfernandamoraes"
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-gold hover:text-gold/80 font-medium text-sm transition-colors"
               >
-                contato@ateliefernandamoraes.com.br
+                @tpdfernandamoraes
               </a>
             </div>
           </motion.div>

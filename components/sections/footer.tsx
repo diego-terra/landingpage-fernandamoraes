@@ -1,6 +1,7 @@
 "use client"
 
-import { Instagram, MessageCircle, Mail } from "lucide-react"
+import { Instagram, MessageCircle, Mail, CirclePlay,} from "lucide-react"
+import { Play } from "next/font/google"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -32,7 +33,7 @@ export function Footer() {
               <MessageCircle className="w-5 h-5" />
             </a>
             <a
-              href="https://www.instagram.com/fernandamoraes.tpd/"
+              href="https://www.instagram.com/fernanda.moraes.tpd/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:border-gold hover:text-gold transition-colors duration-300"
@@ -41,11 +42,13 @@ export function Footer() {
               <Instagram className="w-5 h-5" />
             </a>
             <a
-              href="mailto:contato@ateliefernandamoraes.com.br"
+              href="https://www.youtube.com/@tpdfernandamoraes"
+              target="_blank" 
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:border-gold hover:text-gold transition-colors duration-300"
-              aria-label="E-mail"
+              aria-label="Youtube"
             >
-              <Mail className="w-5 h-5" />
+              <CirclePlay className="w-5 h-5" />
             </a>
           </div>
 

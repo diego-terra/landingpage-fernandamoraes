@@ -26,7 +26,7 @@ const montserrat = Montserrat({
 
 
 export const metadata: Metadata = {
-  title: 'Fernanda Moraes Ateliê Dental | Prótese Dentária',
+  title: 'TPD Fernanda Moraes',
   description: 'Estética, precisão e confiança para elevar o nível dos seus casos clínicos. Prótese dentária artesanal com excelência e atenção aos detalhes.',
   keywords: ['prótese dentária', 'facetas', 'lentes de contato dental', 'protocolo', 'implante dentário', 'estética dental'],
   icons: {
@@ -46,6 +46,33 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+  
+  /*OpenGraph Imagem para quem copia o link */
+  openGraph: {
+    title: 'TPD Fernanda Moraes',
+    description: 'Estética, precisão e confiança para elevar o nível dos seus casos clínicos.',
+    url: 'https://www.fernandamoraestpd.com.br', // depois você troca pelo domínio real
+    siteName: 'TPD Fernanda Moraes',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Fernanda Moraes Ateliê Dental',
+      },
+    ],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+
+  
+  twitter: {
+    card: 'summary_large_image',
+    title: 'TPD Fernanda Moraes',
+    description: 'Estética, precisão e confiança para elevar o nível dos seus casos clínicos.',
+    images: ['/og-image.png'],
+
+  },
 }
 
 export const viewport: Viewport = {
@@ -64,12 +91,17 @@ export default function RootLayout({
       <body className={`${montserrat.variable} ${inter.variable} ${cormorant.variable}  font-sans antialiased`}>
         
         {/* LOGO DE FUNDO (marca d’água) */}
-          {/* <div className="fixed inset-0 -z-10 flex items-center justify-center pointer-events-none">
+          <div className="fixed inset-0 z-0 flex items-center justify-center pointer-events-none">
             <img 
               src="/logo-bg.png" 
               alt="Background Logo"
-              className="w-[700px] opacity-80 object-contain"
+              className="w-[40%] md:w-[30%] opacity-[0.25] object-contain translate-y-10"
+              
             />
+          </div>
+
+          {/* CONTEÚDO COM TRANSPARÊNCIA */}
+          {/* <div className="relative z-10 bg-white/90">
           </div> */}
        
         {children}

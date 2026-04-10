@@ -83,9 +83,9 @@ export function About() {
               </p>
 
               <p>
-                Com anos de experiência e aprimoramento constante, oferecemos aos
-                dentistas parceiros a tranquilidade de contar com um trabalho impecável,
-                pontualidade nos prazos e uma comunicação próxima e transparente.
+                Com anos de experiência e aprimoramento constante, oferecemos aos dentistas
+                parceiros a tranquilidade de contar com um trabalho impecável, prazos reduzidos,
+                pontualidade e uma comunicação próxima e transparente, <b>atendendo e enviando para todo o Brasil.</b>
               </p>
             </div>
 
